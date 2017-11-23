@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<!-- head -->
+  <head>
+    <meta charset="UTF-8">
+    <!-- Title -->
+    <title>Hello World!</title>
+
+    <!-- Bootstrap -->
+    <link href="./app/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./app/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+
+    <!-- css -->
+    <link href="./app/css/styles.css" rel="stylesheet" type="text/css">
+
+  </head>
+<!-- body -->
+  <body>
+    <h1>Hello World!</h1>
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+    We are using node <script>document.write(process.versions.node)</script>,
+    Chromium <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>.
+    <div class="container-fluid">
+      <div class="col-xs-6" style="background-color:gray">class="col-xs-4"</div>
+      <div class="col-xs-6" style="background-color:red">class="col-xs-4"</div>
+    </div>
+  </body>
+
+  <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+  <script src="./app/js/jquery-3.1.0.min.js"></script>
+  <script src="./app/js/bootstrap.min.js"></script>
+  <script>
+    // You can also require other files to run in this process
+    require("./app/js/renderer.js")
+    // require("./js/bootstrap.min.js")
+  </script>
+  <script>if (window.module) module = window.module;</script>
+
+</html>

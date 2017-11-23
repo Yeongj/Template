@@ -1,0 +1,28 @@
+{
+  "name": "template",
+  "version": "0.0.0",
+  "description": "This is a Electron template application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "Yeong Jye Huang",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://.../issues"
+  },
+  "homepage": "https://...#readme",
+  "devDependencies": {
+    "electron-prebuilt": "v1.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://.../XX.git"
+  }
+}
